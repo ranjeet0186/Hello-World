@@ -1,0 +1,33 @@
+Maths = int(input("Enter a Math marks "))
+Physics = int(input("Enter a Physics marsks "))
+English = int(input("Enter a English marks"))
+if(Maths >= 90):
+    print("Maths grade is A ")
+elif(Maths >=75 and Maths <90):
+    print("Maths grade is B ")
+elif(Maths >=60 and Maths <75):
+    print("Maths grade is C ")
+elif(Maths >=45 and Maths <60):
+    print("Maths grade is D ")
+else:
+    print("You Fail in Maths ")
+if(Physics >= 90):
+    print("Physics grade is A ")
+elif(Physics >=75 and Physic <90):
+    print("Physics grade is B ")
+elif(Physics >=60 and Physics <75):
+    print("Physics grade is C ")
+elif(Physics >=45 and Physics <60):
+    print("Physics grade is D ")
+else:
+    print("You Fail in Physics ")
+if(English >= 90):
+    print("English grade is A ")
+elif(English >=75 and English <90):
+    print("English grade is B ")
+elif(English >=60 and English <75):
+    print("English grade is C ")
+elif(English >=45 and English <60):
+    print("English grade is D ")
+else:
+    print("You Fail in English ")
