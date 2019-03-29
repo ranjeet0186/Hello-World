@@ -1,0 +1,13 @@
+Price = 769
+Ranjeet = int(input("Enter the discount for Ranjeet "))
+print("Ranjeet get discount is :",Price*Ranjeet/100)
+print("Ranjeet book price is :",Price-(Price*Ranjeet/100))
+Ankit = int(input("Enter the Disount for Ankit "))
+print("Ankit get discount is :",Price*Ankit/100)
+print("Ankit book price is :",Price-(Price*Ankit/100))
+Rahul = int(input("Enter the Disount for Rahul "))
+print("Rahul get discount is :",Price*Rahul/100)
+print("Rahul book price is :",Price-(Price*Rahul/100))
+Sagar = int(input("Enter the Disount for Sagar "))
+print("Sagar get discount is :",Price*Sagar/100)
+print("Sagar book price is :",Price-(Price*Sagar/100))    
